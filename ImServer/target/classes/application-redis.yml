@@ -1,0 +1,18 @@
+spring:
+  redis:
+    blockWhenExhausted: true
+    database: 0
+    host: 192.168.1.2
+    maxIdle: 100
+    maxTotal: 2000
+    maxWaitMillis: 60000
+    minEvictableIdleTimeMillis: 1800000
+    numTestsPerEvictionRun: 1024
+#    password:  # do not need to set if not exists
+    port: 6379
+    softMinEvictableIdleTimeMillis: 10000
+    testOnBorrow: false
+    testWhileIdle: true
+    timeBetweenEvictionRunsMillis: 30000
+    connTimeout: 6000
+    readTimeout: 6000
