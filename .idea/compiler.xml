@@ -8,8 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="WebGate" />
-        <module name="ImCommon" />
         <module name="ImServer" />
+        <module name="ImClient" />
+        <module name="ImCommon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

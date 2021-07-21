@@ -11,6 +11,7 @@
     <modules>
         <module>ImCommon</module>
         <module>ImServer</module>
+        <module>ImClient</module>
     </modules>
 
     <properties>
